@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap');
+
+body * {
+    font-family: 'syne';
+}
+/*import de la police syne puis application sur toute la page*/
+
+
+h1{
+    padding: 0 20% 0 20%;
+    font-size: 38px;
+    text-align: center;
+    font-weight: 800;
+    color: #3B8E46;
+}
+/*pour faire en sorte que le h1 soit sur 2 lignes, aligné au centre*/
+
+h2{
+    color: #3B8E46;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 700;
+}
+
+h3{
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+}
+
+h4{
+    color: #3B8E46;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+
+p{
+    font-size: 20px;
+    color: black;
+    font-weight: 400;
+    text-align: center;
+}
+/*mise en place des styles du texte et des titres*/
+
+.galerie img{
+    width: 393px;
+    height: 262px;
+}
+/*gestion taille des images de la galerie*/
+
+.bouton{
+    width: 198px;
+    height: 55px;
+    border-radius: 5px;
+    background-color: #E0BAB4;
+    color: white;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+}
+/*style du bouton commander*/
+
+li.menu-item a{
+    color: black;
+    display: inline-block;
+    text-align: center;
+}
+
+li.menu-item a :hover{
+    color: #E0BAB4;
+}
