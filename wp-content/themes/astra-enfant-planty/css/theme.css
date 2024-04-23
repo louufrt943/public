@@ -46,6 +46,7 @@ p{
 .galerie img{
     width: 393px;
     height: 262px;
+    border-radius: 50% !important;
 }
 /*gestion taille des images de la galerie*/
 
